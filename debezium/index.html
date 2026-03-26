@@ -52,8 +52,8 @@
         <section id="kafka-connect">
           <h2>Kafka Connect</h2>
           <p>
-            Kafka Connect — open-source инструмент, который позволяет переносить данные между Kafka и другими системами
-            в формате real-streaming.
+            Kafka Connect — open-source инструмент, который позволяет переносить данные между Kafka<sup id="fnref-1"><a href="#fn-1">1</a></sup>
+            и другими системами в формате real-streaming<sup id="fnref-2"><a href="#fn-2">2</a></sup>.
           </p>
           <p>
             В эпоху BigData real-streaming стал очень востребованным для аналитики, благодаря чему Kafka и Kafka Connect
@@ -78,8 +78,8 @@
             <figcaption>Debezium на практике</figcaption>
           </figure>
           <p>
-            Debezium (в разговоре “дебез”) — коннекторы, позволяющие читать изменения данных (CDC) в режиме real-stream.
-            Как правило, это источники под протоколом JDBC.
+            Debezium (в разговоре “дебез”) — коннекторы, позволяющие читать изменения данных (CDC)<sup id="fnref-3"><a href="#fn-3">3</a></sup>
+            в режиме real-stream. Как правило, это источники под протоколом JDBC<sup id="fnref-4"><a href="#fn-4">4</a></sup>.
           </p>
         </section>
 
@@ -251,19 +251,25 @@
         <section class="footnotes">
           <h2>Сноски</h2>
           <ol>
-            <li>
+            <li id="fn-1">
               Kafka — open-source распределенная платформа, предназначенная для обмена сообщениями в реальном времени.
+              <a href="#fnref-1" aria-label="Вернуться к ссылке 1">↩</a>
             </li>
-            <li>real-streaming — потоковая передача данных в реальном времени.</li>
-            <li>
+            <li id="fn-2">
+              real-streaming — потоковая передача данных в реальном времени.
+              <a href="#fnref-2" aria-label="Вернуться к ссылке 2">↩</a>
+            </li>
+            <li id="fn-3">
               CDC — Change Data Capture — захват изменений данных, в каждом источнике реализован по-разному, например,
               PostgreSQL пишет изменения данных в WAL-лог. Основные плюсы CDC — чтение не напрямую из таблицы, что сильно
               снижает нагрузку на базу и повышает консистентность, так как в качестве изменения пишутся все операции CRUD
               (create, update, delete).
+              <a href="#fnref-3" aria-label="Вернуться к ссылке 3">↩</a>
             </li>
-            <li>
+            <li id="fn-4">
               JDBC — Java Database Connectivity — единый интерфейс для взаимодействия с источниками данных, такими как
               MySQL, PostgreSQL и т. д.
+              <a href="#fnref-4" aria-label="Вернуться к ссылке 4">↩</a>
             </li>
           </ol>
         </section>
