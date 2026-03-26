@@ -138,8 +138,8 @@ h1 {
 .toc__title {
   font-weight: 600;
   color: var(--ink);
-  margin-bottom: 16px;
-  font-size: 1rem;
+  margin: 0 0 16px;
+  font-size: clamp(1.4rem, 2.4vw, 1.9rem);
 }
 
 .toc ul {
