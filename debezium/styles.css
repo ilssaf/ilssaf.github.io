@@ -194,6 +194,7 @@ h2 {
   font-size: clamp(1.6rem, 2.6vw, 2.2rem);
   margin: 0 0 16px;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 p {
