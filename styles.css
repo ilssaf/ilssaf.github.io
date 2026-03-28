@@ -74,6 +74,7 @@ body {
   overflow: hidden;
   position: relative;
   animation: rise 0.8s ease;
+  margin-top: 12px;
 }
 
 .hero__content {
