@@ -2,11 +2,161 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=/debezium/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Redirecting…</title>
+    <title>Илсаф Хамидуллин — Data Engineer</title>
+    <meta name="description" content="Портфолио Data Engineer: инструменты, статьи и контакты." />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <p>Перенаправляю на <a href="/debezium/">/debezium/</a>…</p>
+    <div class="page">
+      <header class="hero">
+        <div class="hero__content">
+          <div class="eyebrow">Data Engineer</div>
+          <h1>Илсаф Хамидуллин</h1>
+          <p class="lead">
+            Проектирую надежные data-пайплайны и инфраструктуру для потоковой и пакетной обработки. Люблю понятные
+            архитектуры, аккуратную эксплуатацию и измеримый результат.
+          </p>
+          <div class="hero__actions">
+            <a class="btn" href="#articles">Статьи</a>
+            <a class="btn btn--ghost" href="#contacts">Связаться</a>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__orb"></div>
+          <div class="hero__grid"></div>
+          <div class="hero__spark"></div>
+        </div>
+      </header>
+
+      <section class="section" id="about">
+        <div class="section__head">
+          <h2>Обо мне</h2>
+          <p>
+            Я Data Engineer, который помогает превращать данные в устойчивые продукты. Фокусируюсь на потоковой обработке,
+            надежности и прозрачности — чтобы команда могла уверенно опираться на данные в решениях.
+          </p>
+        </div>
+        <div class="about__grid">
+          <div class="about__card">
+            <h3>Подход</h3>
+            <p>Четкая архитектура, контроль качества данных, мониторинг и понятные SLA для бизнеса и аналитики.</p>
+          </div>
+          <div class="about__card">
+            <h3>Зоны внимания</h3>
+            <p>Streaming и batch, CDC, масштабируемые DWH, инфраструктура пайплайнов и стабильный прод.</p>
+          </div>
+          <div class="about__card">
+            <h3>Сотрудничество</h3>
+            <p>Работаю в партнерстве с аналитиками, инженерами и продуктом, чтобы данные помогали принимать решения.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="tools">
+        <div class="section__head">
+          <h2>Инструменты и опыт</h2>
+          <p>Технологии, с которыми у меня практический опыт и которыми я пользуюсь в проектах.</p>
+        </div>
+        <div class="tools__grid">
+          <div class="tool-card"><div class="tool-icon">SQL</div><span>SQL</span></div>
+          <div class="tool-card"><div class="tool-icon">AF</div><span>Apache Airflow</span></div>
+          <div class="tool-card"><div class="tool-icon">GIT</div><span>Git</span></div>
+          <div class="tool-card"><div class="tool-icon">EN</div><span>Английский язык</span></div>
+          <div class="tool-card"><div class="tool-icon">PG</div><span>PostgreSQL</span></div>
+          <div class="tool-card"><div class="tool-icon">LIN</div><span>Linux</span></div>
+          <div class="tool-card"><div class="tool-icon">DOC</div><span>Docker</span></div>
+          <div class="tool-card"><div class="tool-icon">MQ</div><span>RabbitMQ</span></div>
+          <div class="tool-card"><div class="tool-icon">ASY</div><span>Асинхронное программирование</span></div>
+          <div class="tool-card"><div class="tool-icon">KAF</div><span>Apache Kafka</span></div>
+          <div class="tool-card"><div class="tool-icon">GP</div><span>Greenplum</span></div>
+          <div class="tool-card"><div class="tool-icon">CH</div><span>Clickhouse</span></div>
+          <div class="tool-card"><div class="tool-icon">CI</div><span>CI/CD</span></div>
+          <div class="tool-card"><div class="tool-icon">SP</div><span>Apache Spark</span></div>
+          <div class="tool-card"><div class="tool-icon">TR</div><span>Trino</span></div>
+          <div class="tool-card"><div class="tool-icon">DWH</div><span>DWH</span></div>
+          <div class="tool-card"><div class="tool-icon">S3</div><span>S3</span></div>
+          <div class="tool-card"><div class="tool-icon">K8S</div><span>Kubernetes</span></div>
+          <div class="tool-card"><div class="tool-icon">ICE</div><span>Apache Iceberg</span></div>
+        </div>
+        <p class="tools__note">Могу заменить буквенные иконки на бренд-иконки, если пришлешь файлы (см. список ниже).</p>
+      </section>
+
+      <section class="section" id="articles">
+        <div class="section__head">
+          <h2>Статьи</h2>
+          <p>Публикации и заметки из практики.</p>
+        </div>
+        <div class="articles__grid">
+          <a class="article-card" href="/debezium/">
+            <div class="article-card__tag">Streaming</div>
+            <h3>Тонкости Kafka Connect и Debezium</h3>
+            <p>Настройки, проблемы сетевой связности, TOAST, heartbeat и бэкфиллинг.</p>
+            <span class="article-card__cta">Читать →</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="contacts">
+        <div class="section__head">
+          <h2>Контакты и сервисы</h2>
+          <p>Связаться со мной или перейти в мои профили.</p>
+        </div>
+        <div class="contacts__grid">
+          <a class="contact-card" href="https://t.me/data_w0rld" target="_blank" rel="noreferrer">
+            <div class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M3 11.5l17.5-7.2-3.9 16.8-5.4-5-3.3 3.1v-4.7l8.5-8.1" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact-title">Telegram канал</div>
+              <div class="contact-meta">@data_w0rld</div>
+            </div>
+          </a>
+          <a class="contact-card" href="https://t.me/IlsafKhamidullin" target="_blank" rel="noreferrer">
+            <div class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0Z" />
+                <path d="M9 15c.7.7 1.7 1 3 1s2.3-.3 3-1" />
+                <path d="M9 10h.01M15 10h.01" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact-title">Telegram профиль</div>
+              <div class="contact-meta">@IlsafKhamidullin</div>
+            </div>
+          </a>
+          <a class="contact-card" href="https://getmentor.dev/mentor/ilsaf-hamidullin-6984" target="_blank" rel="noreferrer">
+            <div class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M4 6h16v10H4z" />
+                <path d="M8 6V4h8v2" />
+                <path d="M8 16v4h8v-4" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact-title">GetMentor.dev</div>
+              <div class="contact-meta">Профиль ментора</div>
+            </div>
+          </a>
+          <a class="contact-card" href="https://github.com/ilssaf" target="_blank" rel="noreferrer">
+            <div class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M12 3a9 9 0 0 0-3 17.5V18c-2.2.5-3.3-1-3.3-1" />
+                <path d="M15 20.5v-2.6c0-.9-.3-1.5-.8-2 2.6-.3 5.3-1.3 5.3-5.8a4.5 4.5 0 0 0-1.2-3.1 4 4 0 0 0-.1-3.1s-1-.3-3.2 1.2a11 11 0 0 0-6 0C6.8 3.6 5.8 4 5.8 4a4 4 0 0 0-.1 3.1A4.5 4.5 0 0 0 4.5 10c0 4.5 2.7 5.5 5.3 5.8-.5.5-.8 1.1-.8 2v2.7" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact-title">GitHub</div>
+              <div class="contact-meta">@ilssaf</div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
