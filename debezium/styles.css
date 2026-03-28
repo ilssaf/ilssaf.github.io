@@ -242,8 +242,7 @@ p {
 
 .content section p,
 .content section ul,
-.content section ol,
-.content section .callout {
+.content section ol {
   max-width: 66.666%;
 }
 
@@ -262,7 +261,7 @@ code {
   background: #f1f4f7;
   padding: 2px 6px;
   border-radius: 6px;
-  font-size: 0.95em;
+  font-size: 1em;
   color: #24324a;
 }
 
