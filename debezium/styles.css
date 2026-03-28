@@ -132,6 +132,7 @@ h1 {
   margin: 0 0 16px;
   color: var(--ink);
   overflow-wrap: anywhere;
+  line-height: 1.05;
 }
 
 .lead {
