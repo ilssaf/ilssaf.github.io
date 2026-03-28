@@ -147,6 +147,10 @@ h1 {
   line-height: 1.7;
 }
 
+#about .section__head p {
+  max-width: 75%;
+}
+
 .about__grid,
 .tools__grid,
 .articles__grid,
@@ -367,5 +371,9 @@ h1 {
 
   .section {
     padding: 24px;
+  }
+
+  #about .section__head p {
+    max-width: 100%;
   }
 }
