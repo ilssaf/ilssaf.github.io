@@ -340,6 +340,45 @@ h1 {
   line-height: 1.7;
 }
 
+.roadmap {
+  display: grid;
+  gap: 16px;
+}
+
+.roadmap__item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  align-items: start;
+  background: var(--card);
+  border-radius: 16px;
+  padding: 18px;
+  border: 1px solid var(--border);
+}
+
+.roadmap__step {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--sky);
+  color: var(--accent-strong);
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  font-size: 0.85rem;
+}
+
+.roadmap__item h3 {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+}
+
+.roadmap__item p {
+  margin: 0;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+
 .contact-card {
   display: flex;
   gap: 14px;
