@@ -35,7 +35,7 @@ body {
 
 .profile-link {
   position: sticky;
-  top: 6px;
+  top: -12px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
