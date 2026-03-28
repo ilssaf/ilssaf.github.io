@@ -140,6 +140,7 @@ h1 {
   line-height: 1.7;
   color: var(--ink-soft);
   margin: 0 0 20px;
+  max-width: 66.666%;
 }
 
 .chips {
@@ -354,5 +355,9 @@ a:hover {
 
   section {
     padding: 22px;
+  }
+
+  .lead {
+    max-width: 100%;
   }
 }
