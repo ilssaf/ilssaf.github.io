@@ -206,6 +206,8 @@ h1 {
   align-items: center;
   justify-items: start;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+  color: inherit;
 }
 
 .tool-card:hover {
