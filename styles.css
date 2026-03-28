@@ -210,6 +210,14 @@ h1 {
   color: inherit;
 }
 
+.tool-card:link,
+.tool-card:visited,
+.tool-card:hover,
+.tool-card:active {
+  color: inherit;
+  text-decoration: none;
+}
+
 .tool-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 14px 26px rgba(14, 22, 38, 0.12);
