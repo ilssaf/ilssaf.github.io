@@ -126,7 +126,7 @@ body {
 }
 
 h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Manrope", system-ui, -apple-system, sans-serif;
   font-size: clamp(2.2rem, 4vw, 3.6rem);
   margin: 0 0 16px;
   color: var(--ink);
@@ -219,7 +219,7 @@ section::after {
 }
 
 h2 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Manrope", system-ui, -apple-system, sans-serif;
   font-size: clamp(1.6rem, 2.6vw, 2.2rem);
   margin: 0 0 16px;
   color: var(--ink);
