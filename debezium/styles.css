@@ -35,7 +35,7 @@ body {
 
 .profile-link {
   position: sticky;
-  top: -12px;
+  top: 18px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -84,6 +84,7 @@ body {
   box-shadow: var(--shadow);
   position: relative;
   overflow: hidden;
+  margin-top: 12px;
 }
 
 .hero__content {
