@@ -177,15 +177,17 @@ h1 {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 12px 20px;
+  column-count: 2;
+  column-gap: 24px;
 }
 
 .toc a {
+  display: inline-block;
   text-decoration: none;
   color: var(--ink-soft);
   font-weight: 500;
+  line-height: 1.4;
+  padding: 4px 0;
   border-bottom: 1px solid transparent;
   transition: all 0.2s ease;
 }
@@ -193,6 +195,10 @@ h1 {
 .toc a:hover {
   color: var(--accent);
   border-bottom-color: var(--accent);
+}
+
+.toc li {
+  break-inside: avoid;
 }
 
 .content {
@@ -337,7 +343,7 @@ a:hover {
   }
 
   .toc ul {
-    grid-template-columns: 1fr;
+    column-count: 1;
   }
 }
 
