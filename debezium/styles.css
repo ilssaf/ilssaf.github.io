@@ -240,6 +240,13 @@ p {
   margin: 0 0 16px;
 }
 
+.content section p,
+.content section ul,
+.content section ol,
+.content section .callout {
+  max-width: 66.666%;
+}
+
 ol,
 ul {
   margin: 0 0 16px 20px;
@@ -354,5 +361,12 @@ a:hover {
 
   section {
     padding: 22px;
+  }
+
+  .content section p,
+  .content section ul,
+  .content section ol,
+  .content section .callout {
+    max-width: 100%;
   }
 }
