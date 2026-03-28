@@ -226,6 +226,16 @@ h1 {
   letter-spacing: 0.06em;
 }
 
+.tool-icon img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.tool-icon--text {
+  background: var(--sky);
+}
+
 .tools__note {
   margin-top: 14px;
   color: var(--ink-soft);
